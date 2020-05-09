@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ella's recipes - Home</title>
+    <link rel="stylesheet" href="../css/tool-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <container>
+        <header>
+            <a href="../index.html">Ella's Recipes</a>
+        </header>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Breakfast</button>
+                <div class="dropdown-content">
+                    <a href="../breakfast/breakfast_home.html">Browse all</a>
+                    <a href=#Link>Sweet</a>
+                    <a href=#Link>Savoury</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Lunch</button>
+                <div class="dropdown-content">
+                    <a href="../lunch/lunch_home.html">Browse all</a>
+                    <a href=#Link>Meat</a>
+                    <a href=#Link>Fish</a>
+                    <a href=#Link>Vegetarian</a>
+                    <a href=#Link>Vegan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Dinner</button>
+                <div class="dropdown-content">
+                    <a href="../dinner/dinner_home.html">Browse all</a>
+                    <a href=#Link>Meat</a>
+                    <a href=#Link>Fish</a>
+                    <a href=#Link>Vegetarian</a>
+                    <a href=#Link>Vegan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Dessert</button>
+                <div class="dropdown-content">
+                    <a href="../dessert/dessert_home.html">Browse all</a>
+                    <a href=#Link>Cheesecake</a>
+                    <a href=#Link>Meringue</a>
+                    <a href=#Link>Pastry</a>
+                    <a href=#Link>Classics</a>
+                    <a href=#Link>Chilled desserts</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Baking</button>
+                <div class="dropdown-content">
+                    <a href="../baking/baking_home.html">Browse all</a>
+                    <a href=#Link>Biscuits + cookies</a>
+                    <a href=#Link>Brownies</a>
+                    <a href=#Link>Cakes + muffins</a>
+                    <a href=#Link>Pastry</a>
+                    <a href=#Link>Savoury</a>
+                    <a href=#Link>Sweets</a>
+                </div>
+            </div>
+            <a class="dropbtn" href="../drinks/drinks_home.html">Drinks</a>
+            <div class="dropdown">
+                <button class="dropbtn">Tools</button>
+                <div class="dropdown-content">
+                    <a href="./timer.html">Timer</a>
+                    <a href="./stopwatch.html">Stopwatch</a>
+                    <a href=#Link>Temperature conversion</a>
+                    <a href=#Link>Baking tin conversions</a>
+                    <a href=#Link>Amount conversions</a>
+                </div>
+            </div>
+        </div>
+    </container>
+
+    <main>
+        <h1>Timer</h1>
+        <div id="countdown-timer">
+            <form id="time-input">
+                <label for="hours">Hours: </label>
+                <input type="number" id="hours" name="hours" min="0" step="1" value="0">
+                <label for="mins">Minutes: </label>
+                <input type="number" id="mins" name="mins" min="0" max="59" step="1" value="0">
+            </form>
+            <button id="submit-button" onclick="userInput()">Submit</button>
+            <div id="display">00:00:00</div>
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+            <button id="cancel-button">Cancel</button>
+        </div>
+        <script src="../js/timer-script.js"></script>
+    </main>
+
+
+    <footer>
+        &copy; 2020 Ella's Recipe's &nbsp; <span class="separator">|</span> &nbsp; <a href="../about.html">About</a> &nbsp; <span class="separator">|</span> &nbsp; Design by Ella Wren &nbsp; <span class="separator">|</span> &nbsp; <a href="http://www.linkedin.com/in/ellawren">LinkedIn</a> &nbsp; <span class="separator">|</span> &nbsp;
+        <a href="../contact.html">Contact</a> &nbsp;
+    </footer>
+
+
+</body>
+
+</html>
