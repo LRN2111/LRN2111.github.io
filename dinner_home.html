@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ella's recipes - Dinner Home</title>
+    <link rel="stylesheet" href="../css/section-home-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <container>
+        <header>
+            <a href="../index.html">Ella's Recipes</a>
+        </header>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Breakfast</button>
+                <div class="dropdown-content">
+                    <a href="../breakfast/breakfast_home.html">Browse all</a>
+                    <a href=#Link>Sweet</a>
+                    <a href=#Link>Savoury</a>
+                    <a href=#Link>Meat/fish</a>
+                    <a href=#Link>Veggie/vegan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Lunch</button>
+                <div class="dropdown-content">
+                    <a href="../lunch/lunch_home.html">Browse all</a>
+                    <a href=#Link>Meat</a>
+                    <a href=#Link>Fish</a>
+                    <a href=#Link>Vegetarian</a>
+                    <a href=#Link>Vegan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Dinner</button>
+                <div class="dropdown-content">
+                    <a href="../dinner/dinner_home.html">Browse all</a>
+                    <a href=#Link>Meat</a>
+                    <a href=#Link>Fish</a>
+                    <a href=#Link>Vegetarian</a>
+                    <a href=#Link>Vegan</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Dessert</button>
+                <div class="dropdown-content">
+                    <a href="../dessert/dessert_home.html">Browse all</a>
+                    <a href=#Link>Cheesecake</a>
+                    <a href=#Link>Meringue</a>
+                    <a href=#Link>Pastry</a>
+                    <a href=#Link>Classics</a>
+                    <a href=#Link>Chilled desserts</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Baking</button>
+                <div class="dropdown-content">
+                    <a href="../baking/baking_home.html">Browse all</a>
+                    <a href=#Link>Biscuits + cookies</a>
+                    <a href=#Link>Brownies</a>
+                    <a href=#Link>Cakes + muffins</a>
+                    <a href=#Link>Pastry</a>
+                    <a href=#Link>Savoury</a>
+                    <a href=#Link>Sweets</a>
+                </div>
+            </div>
+            <a class="dropbtn" href="../drinks/drinks_home.html">Drinks</a>
+            <div class="dropdown">
+                <button class="dropbtn">Tools</button>
+                <div class="dropdown-content">
+                    <a href="../tools/timer.html">Timer</a>
+                    <a href="../tools/stopwatch.html">Stopwatch</a>
+                    <a href=#Link>Temperature conversion</a>
+                    <a href=#Link>Baking tin conversions</a>
+                    <a href=#Link>Amount conversions</a>
+                </div>
+            </div>
+        </div>
+    </container>
+    <h1>Dinner recipes</h1>
+    <main>
+        <!-- Filter buttons -->
+        <div class="filters">
+            <div id="dietaryButtons">
+                <label>Dietary: </label>
+                <button class="all active" id="dietAll"> Show all</button>
+                <button class="meat" id="dietMeat"> Meat</button>
+                <button class="fish" id="dietFish"> Fish</button>
+                <button class="vegetarian" id="dietVegetarian"> Vegetarian</button>
+                <button class="vegan" id="dietVegan"> Vegan</button>
+            </div>
+
+            <div id="seasonButtons">
+                <label>Season: </label>
+                <button class="all active" id="seasonAll"> Show all</button>
+                <button class="spring"> Spring</button>
+                <button class="summer"> Summer</button>
+                <button class="autumn"> Autumn</button>
+                <button class="winter"> Winter</button>
+            </div>
+
+            <div id="timeButtons">
+                <label>Time: </label>
+                <button class="all active" id="timeAll"> Show all</button>
+                <button class="thirty"> Under 30 minutes</button>
+                <button class="hour"> Under 1 hour</button>
+                <button class="slow"> Slow cooker</button>
+            </div>
+        </div>
+
+        <!-- Gallery of recipes -->
+        <div class="recipes">
+            <a href="../dinner-recipes/bean_chorizo_chilli.html"><div class="content meat spring summer autumn winter">
+                <img src="../images/bean-chorizo-chilli.jpg" alt="Bean and Chorizo Chilli">
+                <h3>Bean and Chorizo Chilli</h3>
+                <h4>Serves 2</h4>
+                </div></a>
+            <a href="../dinner-recipes/cajun_chicken_gumbo.html"><div class="content meat spring summer autumn winter">
+                <img src="../images/cajun-chicken-gumbo.jpg" alt="Cajun Chicken Gumbo">
+                <h3>Cajun Chicken Gumbo</h3>
+                <h4>Serves 2</h4>
+            </div></a>
+            <a href="../dinner-recipes/chilli_con_carne.html"><div class="content meat spring summer autumn winter hour">
+                <img src="../images/blank.png" alt="Blank">
+                <h3>Chilli Con Carne</h3>
+                <h4>Serves 4</h4>
+            </div></a>
+            <a href="../dinner-recipes/fettuccine-alfredo.html"><div class="content meat autumn winter thirty hour">
+                <img src="../images/fettuccine-alfredo.jpg" alt="Fettuccine Alfredo">
+                <h3>Fettuccine Alfredo</h3>
+                <h4>Serves 2</h4>
+            </div></a>
+            <a href="../dinner-recipes/prawn_chorizo_linguine.html"><div class="content meat fish spring summer hour">
+                <img src="../images/prawn-chorizo-linguine.jpg" alt="Prawn and Chorizo Linguine">
+                <h3>Prawn and Chorizo Linguine</h3>
+                <h4>Serves 2</h4>
+            </div></a>
+            <div class="content meat summer slow">
+                <img src="../images/slow-cooker-bbq-ribs.jpg" alt="Slow Cooker BBQ Ribs">
+                <h3>Slow Cooker BBQ Ribs</h3>
+                <h4>Serves 2</h4>
+            </div>
+            <a href="../dinner-recipes/spinach-feta-lasagne.html"><div class="content vegetarian spring autumn winter">
+                <img src="../images/spinach-feta-lasagne.jpg" alt="Spinach and Feta Lasagne">
+                <h3>Spinach and Feta Lasagne</h3>
+                <h4>Serves 6</h4>
+            </div></a>
+        </div>
+        <!-- END GALLERY -->
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/dinner-home-script.js"></script>
+
+    <footer>
+        &copy; 2020 Ella's Recipe's &nbsp; <span class="separator">|</span> &nbsp; <a href="../about.html">About</a> &nbsp; <span class="separator">|</span> &nbsp; Design by Ella Wren &nbsp; <span class="separator">|</span> &nbsp; <a href="http://www.linkedin.com/in/ellawren">LinkedIn</a> &nbsp; <span class="separator">|</span> &nbsp;
+        <a href="../contact.html">Contact</a> &nbsp;
+    </footer>
+
+</body>
+
+</html>
