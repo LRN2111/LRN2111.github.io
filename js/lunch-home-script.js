@@ -12,17 +12,17 @@ $dietbtns.click(function (event) {
     $(this).addClass("active");
 });
 
-// CARB FILTERS 
-// variable for class of active carb button. Set to 'all' on page load
-var carbActive = "all"
-// Save carb filter buttons as jQuery collection
-var $carbbtns = $("#carbButtons > button");
-// Function for all season filter buttons
-$carbbtns.click(function (event) {
-    // store carb class of clicked button in a variable 'carbActive'
-    carbActive = $(this).attr("class").split(" ")[0];
+// BASE FILTERS 
+// variable for class of active base button. Set to 'all' on page load
+var baseActive = "all"
+// Save base filter buttons as jQuery collection
+var $basebtns = $("#baseButtons > button");
+// Function for all base filter buttons
+$basebtns.click(function (event) {
+    // store base class of clicked button in a variable 'baseActive'
+    baseActive = $(this).attr("class").split(" ")[0];
     // remove 'active' class from all buttons, then add it to the present button
-    $carbbtns.removeClass("active");
+    $basebtns.removeClass("active");
     $(this).addClass("active");
 });
 
@@ -32,7 +32,7 @@ var criteria = ["all", "all", "all"];
 // Function for clicking each filter button
 $(".filters > div > button").click(function () {
     // on initial button click, criteria variable updated to current active filter classes
-    criteria = [dietActive, carbActive];
+    criteria = [dietActive, baseActive];
     // each .content element has .selected class added
     $(".content").each(function (index, element) {
         $(element).addClass("selected");
